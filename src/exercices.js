@@ -11,7 +11,10 @@ Créez des variables pour chacune des informations suivantes:
 🚨 Dans la suite des exercices, nous allons modifier les valeurs de certaines variables (age et city).
 Pensez donc à utiliser les mots-clés appropriés lorsque vous déclarez les variables (let / const).
 */
-
+const firstName = "Poire";
+const lastName = "Poire2";
+let age = 22;
+let city = "Fribourg";
 // -----------------------------------------------------------------------------------
 
 /*
@@ -21,7 +24,8 @@ Exercice 2:
 Créez une fonction nommée "birthday". Celle-ci vient ajouter 1 an à votre âge.
 🚨 Réutilisez bien sûr la variable du 1er exercice.
 */
-
+function birthday()
+    age + 1;
 // -----------------------------------------------------------------------------------
 
 /*
@@ -32,7 +36,11 @@ Créez une fonction nommée "changeCity" et qui prend un paramètre (la nouvelle
 Le but de cette fonction est donc de modifier la valeur de la variable "city" créée au 1er exercice avec la nouvelle ville.
 🚨 Réutilisez bien sûr la variable du 1er exercice.
 */
+function changeCity(newcity){
+    city= newcity;
+}
 
+changeCity(Berlin);
 /*
 Exercice 4 (avancé):
 -------------
